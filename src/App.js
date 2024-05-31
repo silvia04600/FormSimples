@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
 
-      <h2>Cadastro</h2>
+      <h2>Cadastre-se</h2>
       <div className="styles.container">
       <MyForm user={{ name: "Josias", email: "josias@hotmail.com" }} />
       </div>

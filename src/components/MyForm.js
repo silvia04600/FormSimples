@@ -67,7 +67,7 @@ const MyForm = ({ user }) => {
           ></textarea>
         </label>
         {/* 9 - select */}
-        <label>
+        <label><span>seletores</span>
           <select name="role" onChange={(e) => setRole(e.target.value)}>
             <option value="user">Usuário</option>
             <option value="editor">Editor</option>
